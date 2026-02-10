@@ -10,7 +10,7 @@ It detects abnormal patterns in historical financial data using unsupervised lea
 
 You can access the live application here:
 
-🔗 **[Click Here 👈](https://anomalydetectionsystem01.streamlit.app//)**
+🔗 **[Click Here 👈](https://anomaly-detection-system.streamlit.app)**
 
 ---
 

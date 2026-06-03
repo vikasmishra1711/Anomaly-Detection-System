@@ -6,7 +6,7 @@ import os
 import plotly.express as px
 import plotly.graph_objects as go
 st.set_page_config(
-    page_title="SentinelGuard – Anomaly Detection by vikas",
+    page_title="SentinelGuard – Anomaly Detection",
     page_icon="",
     layout="wide"
 )
@@ -25,7 +25,7 @@ def detect_anomalies(errors, model_name):
     threshold = np.percentile(errors, percentile)
     preds = (errors > threshold).astype(int)
     return preds, threshold
-st.title(" SentinelGuard – Time-Series Anomaly Detection System")
+st.title(" SentinelGuard – Time-Series Anomaly Detection System by vikas")
 st.markdown(
     "**Primary Model:** LSTM Autoencoder  |  "
     "**Secondary Model:** GRU Autoencoder"

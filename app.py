@@ -6,7 +6,7 @@ import os
 import plotly.express as px
 import plotly.graph_objects as go
 st.set_page_config(
-    page_title="SentinelGuard – Anomaly Detection",
+    page_title="SentinelGuard – Anomaly Detection by vikas",
     page_icon="",
     layout="wide"
 )
